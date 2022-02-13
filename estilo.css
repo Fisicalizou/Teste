@@ -1,3 +1,4 @@
+/* Inicio formatação geral */
 *{
     margin: 0;
     padding: 0;
@@ -6,51 +7,66 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #cac8c8;
 }
-#mensagem-superior{
-    margin-left: 200px;
-    padding-top: 10px;
-    width: 20%;
+.clear{
+    clear: both;
 }
-#cabecalho{
-height: 180px;
-/*border: 5px solid red;*/
-background-color:#182946;
-}
+/* Fim formatação geral */
 
+/* Inicio topo do site */
+#mensagem-superior{
+    width: 25%;
+    min-width: 280px;
+    position: relative;
+    left: 12%;
+    top: 30%;
+}
+header {
+
+    height: 180px;
+    background-color:#182946;
+    min-width: 720px;
+}
 #topo-cabecalho{
     background-color: black;
-    height: 40px;
+    height: 50px;
 }
-
 #logo-cabecalho{
-    width: 180px;
-    padding: 0 20 0 170px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
 }
-p{
-    color: gray;
-    font-weight: bold;
-}
-#icones-topo{
-    margin-right: 10px;
+/* Inicio Ícones - topo do site*/
+#icone-instagram{
+    margin-right: 1%;
     width: 2%;
     float: right;
-    margin-top: 10px;
+    margin-top: 14px;
+    min-width: 20px;
 }
-#icones-topo2{
+#icone-youtube{
     width: 2%;
     float: right;
-    margin-top: 10px;
-    margin-right: 100px;
+    margin-top: 14px;
+    margin-right: 4%;
+    min-width: 26px;
 }
+.icone-lupa{
+    position: absolute;
+    top: 4.5em;
+    right: 7%;
+}
+/* Fim Ícones - topo do site*/
 
+/* Inicio navegação - topo do site*/
 ul{
     margin-top: 100px;
     margin-right: 20px;
-    padding: 0;
     list-style: none;
-    width: 710px;
+    min-width: 570px;
+    width: 42%;
     background: #dc7c0b;
-    float: right;
+    position: absolute;
+    right: 10%;
 }
 ul li{
     float: right;
@@ -67,35 +83,23 @@ ul a{
 ul .primeiro a{
     background: none;
 }
-
 ul a:hover{
     color: #182945;
     background: #f6c080;
 }
+/* Fim navegação - topo do site*/
 #pesquisa{
-    width: 590px;
+    width: 40%;
     height: 30px;
     margin: 20 40 0 0px;
 }
-
-.clear{
-    clear: le;
-}
-
 .absolute{
     position: absolute;
-    right: 102px;
+    right: 7%;
 }
+/* Fim topo do site */
 
-.icone-lupa{
-    position: absolute;
-    top: 62px;
-    right: 90px;
-}
-
-#conteiner{
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: white;
-    height: 100%;
+p{
+    color: gray;
+    font-weight: bold;
 }
