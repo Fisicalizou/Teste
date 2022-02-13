@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cac8c8;
+}
+#mensagem-superior{
+    margin-left: 200px;
+    padding-top: 10px;
+    width: 20%;
+}
+#cabecalho{
+height: 180px;
+/*border: 5px solid red;*/
+background-color:#182946;
+}
+
+#topo-cabecalho{
+    background-color: black;
+    height: 40px;
+}
+
+#logo-cabecalho{
+    width: 180px;
+    padding: 0 20 0 170px;
+}
+p{
+    color: gray;
+    font-weight: bold;
+}
+#icones-topo{
+    margin-right: 10px;
+    width: 2%;
+    float: right;
+    margin-top: 10px;
+}
+#icones-topo2{
+    width: 2%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+ul{
+    margin-top: 100px;
+    margin-right: 20px;
+    padding: 0;
+    list-style: none;
+    width: 710px;
+    background: #dc7c0b;
+    float: right;
+}
+ul li{
+    float: right;
+}
+ul a{
+    display: block;
+    padding: 0 2.33em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    background: url(Imagens/divisor.png) repeat-y left top;
+    
+}
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    color: #182945;
+    background: #f6c080;
+}
+#pesquisa{
+    width: 590px;
+    height: 30px;
+    margin: 20 40 0 0px;
+}
+
+.clear{
+    clear: le;
+}
+
+.absolute{
+    position: absolute;
+    right: 102px;
+}
+
+.icone-lupa{
+    position: absolute;
+    top: 62px;
+    right: 90px;
+}
+
+#conteiner{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    height: 100%;
+}
